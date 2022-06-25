@@ -180,7 +180,7 @@ def mailto(row):
     msg['From'] = email_from
     msg['To'] = email_to
 
-    server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
+    server = smtplib.SMTP("smtp.mail.ru", 587)
 
     server.starttls()
 
