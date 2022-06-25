@@ -150,11 +150,11 @@ def mailto(row):
 
     email_to = row[5]
 
-    email_from = "anvarsher87@yahoo.com"
+    email_from = "cons_app_add@mail.ru"
 
-    password3 = "fzrexjgacsptkoyp"
+    password3 = "Q4QqqAm9eegEtTpJ9oBf"
 
-    
+   
     if row[2] == '1ts':
         hs='9:00-11:00'
     elif row[2] == '2ts':
