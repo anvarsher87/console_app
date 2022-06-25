@@ -128,9 +128,6 @@ def list_all():
     con.close()
 
 
-list_all()
-
-
 def checking(rn,d,ts):
     con = sq.connect('data.db')
     cur = con.cursor()
